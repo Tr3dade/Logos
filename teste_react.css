@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.orbit{
+    height: 6.25rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 0.625rem solid #61dafb;
+}
+/*.react{
+    @extend .orbit;
+    background: radial-gradient(circle,#61dafb 15%, transparent 15% );
+    position: relative;
+    animation: rotate 15s infinite linear;
+    &:before, &after{
+        content: "";
+        @extend .orbit;
+        position: absolute;
+        left: -0.625rem;
+        top: -0.625rem;
+    }
+    &:before{
+        transform: rotate(60deg);
+    }
+    &:after{
+        transform: rotate(120deg);
+    }
+    @keyframes rotate{
+        to {
+            transform: rotate(1turn);
+        }
+    }
+
+}*/
